@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ShortcutMaker
+Comment=This app creates shortcut for non steam game.
+Icon=ShortcutMaker
+Exec=ShortcutMaker
+Categories=Utility;
+Version=1.0

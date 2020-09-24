@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ShortCutMaker.png</file>
+        <file>ShortCutMaker.ico</file>
+    </qresource>
+</RCC>
