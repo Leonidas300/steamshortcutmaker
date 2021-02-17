@@ -1,5 +1,6 @@
 # steamshortcutmaker
 QT Program that generates shortcuts for steam of the lutris games.
+It's based on this workflow: https://www.reddit.com/r/linux_gaming/comments/9lcoly/getting_steam_overlay_to_work_with_lutris_wine/
 
 Overview: https://youtu.be/hjCsZHkwhOo
 
