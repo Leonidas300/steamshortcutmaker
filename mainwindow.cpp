@@ -139,7 +139,15 @@ void MainWindow::click_start()
 
     QString result = GetCmd(false,"/usr/games/lutris",args,false,true);
     //QMessageBox::warning(this,"Error",result);
-    QString env = result.split(":{")[1];
+    QStringList res = result.split(":{");
+
+    if(res.length()<1)
+    {
+        QMessageBox::information(this,"ERRORs","Oh man something went wrong. Check is Lutris generating the logs.. Try this command in terminal:\n/usr/games/lutris -d lutris:rungame/title-of-game");
+        return;
+    }
+
+    QString env = res[1];
     env = env.split("}\nDEBUG")[0];
 
     //QMessageBox::warning(this,"Error",env);
